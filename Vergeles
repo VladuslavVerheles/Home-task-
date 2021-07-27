@@ -1,0 +1,38 @@
+//First task
+
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    for (int i = 5; i >= 1; i--){
+    	System.out.println(i);
+	  }
+  }
+}
+
+//Second task
+
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner in = new Scanner(System.in);
+    int n = in.nextInt();
+    int a = 0;
+    for (int i = 0; i < n; i++){
+    	a += i + 1;
+	  }
+    System.out.println(a);
+    in.close();
+  }
+}
+
+//Third task
+
+https://www.codewars.com/kata/56f6ad906b88de513f000d96
+
+public class Kata{
+  public static String bonusTime(final int salary, final boolean bonus) {
+   return "£" + Integer.toString(bonus ? salary * 10 : salary);
+  }
+}
